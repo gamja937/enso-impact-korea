@@ -6997,6 +6997,14 @@ body.mechanism-active .mech-bottom-summary{
 #atlasUserGuide button:hover{filter:brightness(1.15)}
 @media(max-width:620px){#atlasUserGuide .aug-steps{grid-template-columns:1fr}#atlasUserGuide .aug-shell{padding:18px}#atlasUserGuide .aug-step{padding:13px}}
 </style>
+<style id="intro-heading-single-line-v338">
+/* First-opening title only: keep one line at desktop and mobile widths. */
+#intro.atlaspage-intro .homehub-introbox > .intro-title {
+  white-space: nowrap;
+  text-wrap: nowrap;
+  font-size: clamp(24px, 7vw, 106px);
+}
+</style>
 </head>
 <body>
 
@@ -7005,7 +7013,7 @@ body.mechanism-active .mech-bottom-summary{
  <div class="introbox homehub-introbox">
   <button id="atlaspageIntroClose" class="homehub-intro-close" type="button" aria-label="제목 화면 닫고 HOME으로 이동" disabled>×</button>
   <div class="eyebrow mono">ENSO AND KOREAN CLIMATE</div>
-  <div class="intro-title">ENSO<br>Impact on Korea</div>
+  <div class="intro-title">ENSO Impact on Korea</div>
   <div class="homehub-intro-korean">엘니뇨 백서 · ENSO–타대양 기후모드와 한반도 기후 반응</div>
   <div class="homehub-intro-meta homehub-intro-identity">
    <div class="homehub-author-group" aria-label="작성자">
